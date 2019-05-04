@@ -4,3 +4,4 @@
 - TypeScript
 - CSS-Modules
 - Lerna Monorepository
+- HMR

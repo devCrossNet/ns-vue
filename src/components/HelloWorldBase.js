@@ -11,6 +11,8 @@ export default {
         return new Date();
       } /* eslint-disable */ else if (VUE_APP_PLATFORM === "ios") {
         return NSDate.date();
+      } /* eslint-disable */ else if (VUE_APP_PLATFORM === "android") {
+        return new java.util.Date();
       }
     }
   }
